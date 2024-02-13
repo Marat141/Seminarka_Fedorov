@@ -3,6 +3,15 @@ body{
     background-color: #123 ;
 }
 
+.title{
+    color: white;
+    font-family: cursive;
+    background-color: #0b1622;
+    position: absolute;
+    left: 115px;
+    letter-spacing: 5px ;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -15,6 +24,7 @@ header{
     width: 100%;
     overflow: hidden;
     background-color: #0b1622;
+    background-image: url();
     padding: 10px 20px;
 }
 
