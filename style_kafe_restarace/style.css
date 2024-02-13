@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    background-color: #123 ;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+    background-color: #0b1622;
+    padding: 10px 20px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img{
+    width: 60px;
+}
+
+.header a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    padding: 12px;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    
+}
+
+.search-bar {
+    padding: 8px 20px;
+    border-radius: 50px;
+    background-color: #123;
+    border-color: white;
+    margin-right: 30px;
+    border: 0;
+    color: white;
+}
+
+/*main*/
+main{
+    height: 1000px;
+}
+
+/**footer**/
+
+footer {
+    display: flex;
+    padding: 36px;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b1622;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    padding: 10px 36px;
+    gap: 150px;
+}
+
+h4 {
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 1s ease;
+}
+
+.all-options {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px;
+    margin-top: 12px;
+}
+
+.social-links svg {
+    width: 50px;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+}
+
+svg{
+    
+    padding-right: 10px;
+    transition: .5s ease;
+}
+
+li{
+    padding-bottom: 10px;
+}
+
+.about-company{
+    display: flex;
+    justify-content: center;
+}
+
+a:hover{
+    color: red;
+}
+
+svg:hover{
+    fill: red;
+}
+
