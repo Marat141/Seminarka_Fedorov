@@ -1,4 +1,5 @@
 body{
+    position: relatived;
     margin: 0;
     background-color: #123 ;
 }
@@ -26,6 +27,8 @@ header{
     background-color: #0b1622;
     background-image: url();
     padding: 10px 20px;
+    position: fixed;
+    top: 0;
 }
 
 .info{
@@ -63,6 +66,39 @@ header{
 main{
     height: 1000px;
 }
+
+img{
+    width: 300px;
+}
+
+.knedlo-zelo-vepro{
+    border-radius: 9px;
+}
+
+.menu{
+    color: white;
+}
+
+.menu-1{
+    display: inline-block;
+    margin-top: 150px;
+    margin-left: 50px;
+    background-color: #0b1622;
+    border-radius: 9px;
+    border: 6px solid #0b1622;
+}
+
+.czech{
+    width: 18px;
+}
+
+h2, h3, p{
+    padding-left: 4px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
 
 /**footer**/
 
