@@ -1,178 +1,91 @@
 body{
-    position: relatived;
+    position: relative;
     margin: 0;
-    background-color: #123 ;
+    background-color: rgb(17, 34, 51);
 }
 
-.title{
-    color: white;
-    font-family: cursive;
-    background-color: #0b1622;
-    position: absolute;
-    left: 115px;
-    letter-spacing: 5px ;
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.header{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    overflow: hidden;
-    background-color: #0b1622;
-    background-image: url();
-    padding: 10px 20px;
-    position: fixed;
-    top: 0;
-}
-
-.info{
+/*Header*/
+.Owl-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
+    background-color:rgb(11, 22, 34);
 }
 
-.header img{
-    width: 60px;
-}
-
-.header a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    text-align: center;
-    padding: 12px;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
-    
-}
-
-.search-bar {
-    padding: 8px 20px;
-    border-radius: 50px;
-    background-color: #123;
-    border-color: white;
-    margin-right: 30px;
-    border: 0;
-    color: white;
-}
-
-/*main*/
-main{
-    height: 1000px;
-}
-
-img{
-    width: 300px;
-}
-
-.knedlo-zelo-vepro{
-    border-radius: 9px;
-}
-
-.menu{
-    color: white;
-}
-
-.menu-1{
-    display: inline-block;
-    margin-top: 150px;
-    margin-left: 50px;
-    background-color: #0b1622;
-    border-radius: 9px;
-    border: 6px solid #0b1622;
-}
-
-.czech{
-    width: 18px;
-}
-
-h2, h3, p{
-    padding-left: 4px;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-
-
-
-/**footer**/
-
-footer {
+.logo-name{
     display: flex;
-    padding: 36px;
     justify-content: center;
-    align-items: center;
-    background-color: #0b1622;
-    flex-direction: column;
+    gap: 20px;
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1300px;
-    padding: 10px 36px;
-    gap: 150px;
+.logo-owl, img{
+    width: 80px;
+    margin: 10px 0 10px 5px;
 }
 
-h4 {
-    font-size: 30px;
+.Name{
     color: white;
-    text-decoration: underline;
+    font-size: 35px;
+    font-family: cursive;
 }
 
 a{
-    text-decoration: none;
     color: white;
-    font-size: 20px;
-    transition: 1s ease;
+    text-decoration: none;
 }
 
-.all-options {
-    display: flex;
-    flex-direction: column-reverse;
+.Home, .Contact, .About-us{
+    margin-right: 15px;
+    font-size: 18px;
+    transition: all 1s ease 0s;
 }
 
-ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-}
-
-.options {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 40px;
-    margin-top: 12px;
-}
-
-.social-links svg {
-    width: 50px;
-}
-
-.social-links{
-    display: flex;
-    justify-content: center;
-}
-
-svg{
-    
+svg, .IG, .FB, .Reddit, .youtube{
     padding-right: 10px;
     transition: .5s ease;
 }
 
-li{
-    padding-bottom: 10px;
+
+
+main{
+    margin: 1000px;
 }
 
-.about-company{
+
+
+
+
+
+
+
+/*Footer*/
+
+.Owl-footer{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(11, 22, 34);
+    max-width: 3000px;
+}
+
+.social-links{
+    margin-top: 30px;
+}
+
+ul, li{
+    list-style: none;
+}
+
+.About-restaurant{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+h4{
+    font-size: 30px;
 }
 
 a:hover{
@@ -182,4 +95,3 @@ a:hover{
 svg:hover{
     fill: red;
 }
-
