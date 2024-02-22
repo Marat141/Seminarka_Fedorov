@@ -35,7 +35,7 @@ a{
     text-decoration: none;
 }
 
-.Home, .Contact, .About-us{
+.Home, .Contact, .About-us, .information{
     margin-right: 15px;
     font-size: 18px;
     transition: all 1s ease 0s;
@@ -54,7 +54,8 @@ main{
 
 .menu{
     display: grid;
-    grid-template-columns: 330px 330px 330px 330px;
+    grid-template-columns: 329px 329px 329px 329px;
+    margin: 0 65px 0 65px;
 }
 
 h2{
@@ -113,7 +114,7 @@ h2{
     color: white;
     position: absolute;
     top: 419px;
-    left: 293px;
+    left: 360px;
 }
 
 /*menu-2*/
@@ -166,7 +167,7 @@ h2{
     color: white;
     position: absolute;
     top: 419px;
-    left: 622px;
+    left: 685px;
 }
 
 /*menu-3*/
@@ -219,7 +220,7 @@ h2{
     color: white;
     position: absolute;
     top: 419px;
-    left: 955px;
+    left: 1015px;
 }
 
 /*menu-4*/
@@ -271,7 +272,7 @@ h2{
     color: white;
     position: absolute;
     top: 419px;
-    left: 1288px;
+    left: 1347px;
 }
 
 /*Footer*/

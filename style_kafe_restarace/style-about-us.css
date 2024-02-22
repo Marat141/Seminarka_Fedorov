@@ -1,0 +1,120 @@
+body{
+    position: relative;
+    margin: 0;
+    background-color: rgb(17, 34, 51);
+}
+
+/*Header*/
+.Owl-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color:rgb(11, 22, 34);
+}
+
+.logo-name{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo-owl, img{
+    width: 80px;
+    margin: 10px 0 10px 5px;
+}
+
+.Name{
+    color: white;
+    font-size: 35px;
+    font-family: cursive;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.Home, .Contact, .About-us, .information{
+    margin-right: 15px;
+    font-size: 18px;
+    transition: all 1s ease 0s;
+}
+
+svg, .IG, .FB, .Reddit, .youtube, a{
+    padding-right: 10px;
+    transition: .5s ease;
+}
+
+/*main*/
+main{
+    height: 600px;
+}
+
+.About-Owl{
+    color: white;
+}
+
+.About-Owl h1{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.About-Owl p{
+    margin: 0 5%;
+    font-size: 110%;
+}
+
+/*Footer*/
+
+.Owl-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(11, 22, 34);
+    max-width: 3000px;    
+}
+
+.social-links{
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+ul, li{
+    font-size: 20px;
+    list-style: none;
+    margin-top: 0px;
+}
+
+.restaurant-information{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 80px;
+    margin-bottom: 60px;
+}
+
+.About-restaurant{
+    color: white;
+}
+
+.Information{
+    color: white;
+    
+}
+
+.Restaurant-owl, .info{
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: red;
+}
+
+svg:hover{
+    fill: red;
+}
