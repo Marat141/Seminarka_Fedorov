@@ -49,7 +49,7 @@ svg, .IG, .FB, .Reddit, .youtube, a{
 /*main*/
 
 main{
-    height: 1000px;
+    height: 600px;
     color: white;
 }
 
@@ -67,6 +67,16 @@ main h1{
 
 main li{
     font-size: 110%;
+}
+
+.Information-div{
+    display: grid;
+    grid-template-columns: 800px 500px;
+}
+
+.Open p{
+    margin-left: 20%;
+    font-size: 120%;
 }
 
 /*Footer*/
