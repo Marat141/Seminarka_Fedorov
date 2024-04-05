@@ -60,7 +60,7 @@ main h1{
 
 .Open{
     display: grid;
-    grid-template-columns: 150px 200px;
+    grid-template-columns: 150px 250px;
     margin: 0;
     margin-top: 5%;
 }
