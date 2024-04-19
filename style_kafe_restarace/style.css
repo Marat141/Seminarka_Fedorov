@@ -5,30 +5,111 @@ body{
 }
 
 /*Header*/
-.Owl-header{
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    width: 100%;
+    height: 100px;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    position: relative;
+    background-color: none;
+  }
+  header .wrapper {
+    max-width: 1300px;
+    margin: auto;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    gap: 20px;
-    background-color:rgb(11, 22, 34);
-}
-
-.logo-name{
+    height: 100%;
+    justify-content: space-between;
+    padding: 0 10px;
+    background: #fff;
+    z-index: 10;
+    position: relative;
+  }
+  header .wrapper-logo {
+    width: 50px;
+    height: 50px;
+  }
+  header .wrapper-logo img {
+    width: 100%;
+    height: 100%;
+  }
+  header .wrapper-hamburger {
+    width: 50px;
+    height: 30px;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: transform ease 1s;
+  }
+  header .wrapper-hamburger span {
+    transition: transform ease 1s;
+    transition: ease 1s;
+    border: 2px solid #000;
+  }
+  @media only screen and (min-width: 768px) {
+    header .wrapper-hamburger {
+      display: none;
+    }
+  }
+  header .wrapper .is-active {
+    transform: rotate(360deg);
+  }
+  header .wrapper .is-active span:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 13px);
+  }
+  header .wrapper .is-active span:nth-child(2) {
+    opacity: 0;
+  }
+  header .wrapper .is-active span:nth-child(3) {
+    transform: rotate(-45deg) translate(4px, -13px);
+  }
+  header nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-350px);
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
     justify-content: center;
-    gap: 20px;
-}
-
-.logo-owl, img{
-    width: 80px;
-    margin: 10px 0 10px 5px;
-}
-
-.Name{
-    color: white;
-    font-size: 35px;
-    font-family: cursive;
-}
+    align-items: center;
+    padding: 16px 0;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    transition: transform ease 1s;
+  }
+  header nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: ease 0.3s;
+  }
+  @media only screen and (min-width: 768px) {
+    header nav {
+      z-index: 10;
+      flex-direction: row;
+      justify-content: flex-end;
+      padding-right: 60px;
+      transform: translate(-50%, -150%);
+      max-width: 1300px;
+      background: none;
+      box-shadow: none;
+    }
+    header nav a:hover {
+      color: #f00;
+    }
+  }
+  header .is-open {
+    transform: translateX(-50%) translateY(0px);
+  }
+  
 
 a{
     color: white;
@@ -41,9 +122,8 @@ a{
     transition: all 1s ease 0s;
 }
 
-svg, .IG, .FB, .Reddit, .youtube, a{
+.social-links svg {
     padding-right: 10px;
-    transition: .5s ease;
 }
 
 /*main*/
@@ -77,6 +157,24 @@ h2{
     color: white;
 }
 
+.menu-1{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.menu-1 img{
+    height: 200px;
+    cursor: pointer;
+}
+
+.menu-1 .cz{
+    height: 25px;
+    width: 30px;
+}
+
 .knedlo-zelo-vepro{
     width: 100%;
     border-radius: 15px;
@@ -96,10 +194,6 @@ h2{
     margin-bottom: 20px;
 }
 
-.cz{
-    width: 25px;
-    
-}
 
 .nation{
     display: flex;
@@ -116,15 +210,17 @@ h2{
     color: white;
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    transition: ease .5s;
+}
 
+svg{
+    transition: ease .5s;
 }
 
 .smazeny-syr{
     width: 100%;
-    height: 187.5px;
-    border-radius: 15px;
     object-fit: cover;
-
 }
 
 .smazeny-rizek{
@@ -197,3 +293,4 @@ a:hover{
 svg:hover{
     fill: red;
 }
+
