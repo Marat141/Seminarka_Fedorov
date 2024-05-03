@@ -169,7 +169,7 @@ ul, li{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    gap: 80px;
+    gap: 50px;
     margin-bottom: 60px;
 }
 
@@ -194,4 +194,8 @@ a:hover{
 
 svg:hover{
     fill: red;
+}
+
+footer {
+  margin-top: 15px;
 }
