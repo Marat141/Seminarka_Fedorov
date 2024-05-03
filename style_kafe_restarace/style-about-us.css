@@ -120,7 +120,7 @@ a{
 }
 /*main*/
 main{
-    height: 800px;
+    height: auto;
   }
 @media only screen and (max-width: 768px) {
   main{
